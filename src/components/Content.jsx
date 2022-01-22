@@ -23,15 +23,15 @@ const Content = () => {
           </div>
       </div>  
       <div className="text-13 flex flex-col w-[100%] mt-[90px] font-semibold">
-            <p className="flex gap-8 ml-[70px] mr-[29px] items-center mb-[30px]">
+            <p className="check-content">
                 <img src={checkIconMobile} alt="" />
                 <p>Card reports sent to your phone every weeks</p>
             </p>
-            <p className="flex gap-8 ml-[70px] mr-[29px] items-center mb-[30px]">
+            <p className="check-content">
                 <img src={checkIconMobile} alt="" />
                 <p>No external fees</p>
             </p>
-            <p className="flex gap-8 ml-[70px] mr-[29px] items-center mb-[30px]">
+            <p className="check-content">
                 <img src={checkIconMobile} alt="" />
                 <p>Set spending limits and restriction</p>
             </p>
