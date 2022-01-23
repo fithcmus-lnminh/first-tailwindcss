@@ -25,10 +25,10 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (windowSize.width < 500) {
-      setIsMobile = true;
+    if (windowSize.width <= 768) {
+      setIsMobile(true);
     } else {
-      setIsMobile = false;
+      setIsMobile(false);
     }
   }, [windowSize]);
 
