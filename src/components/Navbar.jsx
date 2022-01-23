@@ -3,7 +3,8 @@ import { BsSunFill } from "react-icons/bs";
 import { HiOutlineMenu } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const { isMobile } = props;
   const [openMenu, setOpenMenu] = useState(false);
 
   const handleMenu = () => {
